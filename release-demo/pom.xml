@@ -7,4 +7,15 @@
   <scm>
 		<developerConnection>scm:git:https://github.com/ravijoshi2/ol-release-demo.git</developerConnection>
   </scm>
+  <distributionManagement>
+    <repository>
+      <id>nexus-release</id>
+      <layout>default</layout>
+      <url>http://localhost:8081/repository/release/</url>
+    </repository>
+    <snapshotRepository>
+      <id>nexus-snapshot</id>
+      <url>http://localhost:8081/repository/snapshot/</url>
+    </snapshotRepository>
+  </distributionManagement>
 </project>
