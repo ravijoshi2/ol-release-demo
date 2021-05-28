@@ -2,11 +2,11 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.fd.ol</groupId>
   <artifactId>release-demo</artifactId>
-  <version>1.0.2-SNAPSHOT</version>
+  <version>1.0.2</version>
   
   <scm>
 		<developerConnection>scm:git:https://github.com/ravijoshi2/ol-release-demo.git</developerConnection>
-    <tag>HEAD</tag>
+    <tag>release-demo-1.0.2</tag>
   </scm>
   <distributionManagement>
     <repository>
